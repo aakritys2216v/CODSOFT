@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laughter Chefs – Comedy Meets Cooking</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background: #1b0a2a;
+      color: #ffeefc;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4e148c;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      color: #fff;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f47fff;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("banner.jpg") center/cover no-repeat;
+      padding: 140px 40px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 3.2em;
+      margin-bottom: 20px;
+      color: #ffeefc;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      max-width: 650px;
+      margin: 0 auto 30px;
+    }
+
+    .hero button {
+      background: #ff69b4;
+      border: none;
+      padding: 15px 35px;
+      font-size: 1em;
+      color: #1b0a2a;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .hero button:hover {
+      background: #ff85c1;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section h3 {
+      font-size: 2.4em;
+      margin-bottom: 30px;
+      color: #ff69b4;
+      text-align: center;
+    }
+
+
+    .cast-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Force exactly 4 columns */
+    gap: 30px;
+    }
+
+    .cast-card {
+      background: #310b44;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+      text-align: center;
+      padding-bottom: 15px;
+    }
+
+    .cast-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .cast-card h4 {
+      margin-top: 15px;
+      font-size: 1.4rem;
+      color: #fff;
+    }
+
+    .cast-card p {
+      font-size: 0.95rem;
+      padding: 0 10px;
+      color: #e0b3ff;
+    }
+
+    .card-box {
+      background: #300b44;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      margin-top: 30px;
+    }
+
+    footer {
+      background: #2a083a;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 50px;
+      color: #bbb;
+    }
+
+    a {
+      color: #ff69b4;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Laughter Chefs</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#cast">Cast</a>
+    <a href="#about">About</a>
+    <a href="#How-it-works">How-it-works</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Welcome to Laughter Chefs 🍳😂</h2>
+  <p>Where celebrity chefs and comedians team up to cook up dishes, drama, and double the fun! Join us for a hilarious ride into the world of kitchen chaos.</p>
+  <button>Watch Trailer</button>
+</section>
+
+<section class="section" id="cast">
+  <h3>Meet the Cast 🎭</h3>
+  <div class="cast-gallery">
+    <div class="cast-card">
+      <img src="harpal" alt="Chef 1">
+      <h4>Chef Harpal Singh</h4>
+      <p>Master of spices, now mastering laughs!</p>
+    </div>
+    <div class="cast-card">
+      <img src="bharti.jpeg" alt="Chef 2">
+      <h4>Show host-Bharti Singh</h4>
+      <p>Bringing tears of laughter to the kitchen.</p>
+    </div>
+    <div class="cast-card">
+      <img src="Krushna.webp" alt="Chef 3">
+      <h4>Krushna Abhishek</h4>
+      <p>Awesome Comedian and a Contestant</p>
+    </div>
+    <div class="cast-card">
+      <img src="aly.webp" alt="Chef 4">
+      <h4>Aly Goni</h4>
+      <p>A contestant and the best Chef among contestants</p>
+    </div>
+      <div class="cast-card">
+      <img src="sudesh.jpeg" alt="Chef 5">
+      <h4>Sudesh Lehri</h4>
+      <p>A contestant and a good Comedian</p>
+    </div>
+      <div class="cast-card">
+      <img src="nia.jpeg" alt="Chef 6">
+      <h4>Nia Sharma</h4>
+      <p> Fierce, fabulous, and funny contestant</p>
+    </div>
+    
+      <div class="cast-card">
+      <img src="ankita.jpg" alt="Chef 7">
+      <h4>Ankita Lokhande</h4>
+      <p> Elegant and unexpectedly hilarious contestant</p>
+    </div>
+    
+      <div class="cast-card">
+      <img src="And-Many-More.jpg" alt="">
+      <h4>And Many more.....</h4>
+      <p> </p>
+    </div>
+    
+    
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h3>🍽 About the Show</h3>
+  <div class="card-box">
+    <p style="text-align:center; font-size: 1.1rem; line-height: 1.8;">
+      Laughter Chefs is a unique show where comedy meets cuisine. Watch your favorite celebrities battle kitchen disasters and serve up joy in every episode. 
+      It’s the perfect mix of food, friendship, and full-on entertainment! With every challenge, they stir up laughter, sprinkle chaos, and plate up unforgettable moments. 
+      Expect epic kitchen fails, hilarious banter, surprise twists, and a whole lot of heart—all under one sizzling roof!</p>
+  </div>
+</section>
+
+<section class="section" id="how-it-works">
+  <h3>🍳 How the Show Works</h3>
+  <div class="card-box">
+    <p style="text-align:center; font-size: 1.1rem; line-height: 1.8; max-width: 900px; margin: 0 auto;">
+      <strong>Laughter Chefs</strong> brings together India’s favorite comedians and celebrity chefs in an unpredictable culinary showdown! Each episode features hilarious tasks, creative recipes, and chaotic cooking challenges.
+    </p>
+    <br />
+
+    <ul style="font-size: 1.05rem; padding-left: 30px; line-height: 1.8; color: #e6d3ff;">
+      <li><strong>👨‍🍳 Celebrity Pairing:</strong>  Two stars pair up to form one kitchen team full of personality and drama.</li>
+      <li><strong>🎲 Cooking Challenges:</strong> Each team is given a surprise recipe or quirky kitchen task.</li>
+      <li><strong>⏱ Time Pressure:</strong> They must finish their dish within a set time—chaos guaranteed!</li>
+      <li><strong>🥴 Comic Curveballs:</strong> Judges throw in comedy-based tasks like cooking blindfolded or mimicking each other.</li>
+      <li><strong>🎉 Judging:</strong> Dishes are scored based on taste, creativity, presentation... and laughter!</li>
+      <li><strong>🏆 Weekly Winners:</strong> One team wins the star after each cooking battle and moves closer to the finale.</li>
+    </ul>
+
+    <p style="text-align:center; margin-top: 25px;">
+      🍲 It’s not just about who cooks best—it’s about who cooks loudest, laughs hardest, and survives the madness!
+    </p>
+  </div>
+</section>
+
+
+<section class="section" id="contact">
+  <h3>Contact</h3>
+  <div class="card-box" style="text-align: center;">
+    <p><strong>Email:</strong> <a href="mailto:singhaakrity832@gmail.com">singhaakrity832@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91 9341059756</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aakrity-singh-9b7674330/" target="_blank">Aakrity Singh</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Aakrity Singh — Crafted with laughter, style, and a pinch of masala!</p>
+</footer>
+
+</body>
+</html>
